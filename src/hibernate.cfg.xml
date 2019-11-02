@@ -16,9 +16,11 @@
 		<property name="hbm2ddl.auto">create</property> <!-- create / create-drop / update -->
 		<property name="show_sql">true</property> <!-- Show SQL in console -->
 		<property name="format_sql">true</property> <!-- Show SQL formatted -->
-		<mapping class="com.etp.model.Vehicle"/>
+		<!-- <mapping class="com.etp.model.Vehicle"/>
 		<mapping class="com.etp.model.TwoWheeler"/>
-		<mapping class="com.etp.model.FourWheeler"/>
+		<mapping class="com.etp.model.FourWheeler"/> -->
+		<mapping class="com.etp.model.Country"/>
+		<mapping class="com.etp.model.State"/>
 
 	</session-factory>
 </hibernate-configuration>
