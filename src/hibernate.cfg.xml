@@ -17,10 +17,12 @@
 		<property name="show_sql">true</property> <!-- Show SQL in console -->
 		<property name="format_sql">true</property> <!-- Show SQL formatted -->
 		<!-- <mapping class="com.etp.model.Vehicle"/>
-		<mapping class="com.etp.model.TwoWheeler"/>
-		<mapping class="com.etp.model.FourWheeler"/> -->
+		 <mapping class="com.etp.model.TwoWheeler"/>
+		<mapping class="com.etp.model.FourWheeler"/> 
 		<mapping class="com.etp.model.Country"/>
-		<mapping class="com.etp.model.State"/>
+		<mapping class="com.etp.model.State"/> --> 
+		<mapping class="com.etp.model.Vehicles"/>
+		<mapping class="com.etp.model.Person"/>
 
 	</session-factory>
 </hibernate-configuration>

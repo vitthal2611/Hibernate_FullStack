@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 
 @Entity
@@ -20,7 +21,7 @@ public class Country {
 	String countryName;
 	String description;
 	
-	@OneToMany
+	@ManyToMany
 	List<State> stateList= new ArrayList<State>();
 	
 	public Country() {

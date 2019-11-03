@@ -44,6 +44,12 @@ public class CountryStateTest {
 		transaction.commit();
 
 		session.close();
+		
+		session = sessionFactory.openSession();
+		
+		session.beginTransaction();
+		Country countryObj = (Country)session.get(Country.class, 3);
+		session.close();
 
 		System.exit(0);
 
